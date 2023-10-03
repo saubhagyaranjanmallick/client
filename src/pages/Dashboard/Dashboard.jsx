@@ -49,7 +49,7 @@ const Dashboard = () => {
       setName(data.name);
       setCallerSignal(data.signal);
     });
-  }, );
+  },[] );
 
   const callUser = (id) => {
     const peer = new Peer({
